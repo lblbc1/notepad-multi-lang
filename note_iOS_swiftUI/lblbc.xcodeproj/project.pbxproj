@@ -22,6 +22,7 @@
 		C4E5564527AFAEE4004FA13E /* NoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E5564427AFAEE4004FA13E /* NoteListView.swift */; };
 		C4E5564727AFAEFA004FA13E /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E5564627AFAEFA004FA13E /* NoteViewModel.swift */; };
 		C4E5564B27AFAFEE004FA13E /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E5564A27AFAFEE004FA13E /* Note.swift */; };
+		C4EF6A63298171210048465F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4EF6A65298171210048465F /* Localizable.strings */; };
 		C4F01393297E875600609DD2 /* QueryNoteListResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F01392297E875600609DD2 /* QueryNoteListResp.swift */; };
 		C4F01395297E87AC00609DD2 /* CommonResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F01394297E87AC00609DD2 /* CommonResp.swift */; };
 		C4F01398297E8D2500609DD2 /* QueryNoteResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F01397297E8D2500609DD2 /* QueryNoteResp.swift */; };
@@ -48,6 +49,7 @@
 		C4E5564627AFAEFA004FA13E /* NoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
 		C4E5564A27AFAFEE004FA13E /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		C4ECBFAD2926775600C13C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C4EF6A64298171210048465F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C4F01392297E875600609DD2 /* QueryNoteListResp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryNoteListResp.swift; sourceTree = "<group>"; };
 		C4F01394297E87AC00609DD2 /* CommonResp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonResp.swift; sourceTree = "<group>"; };
 		C4F01397297E8D2500609DD2 /* QueryNoteResp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryNoteResp.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				C443007427AD39FC00B8D697 /* ContentView.swift */,
 				C443007627AD39FD00B8D697 /* Assets.xcassets */,
 				C443007827AD39FD00B8D697 /* Preview Content */,
+				C4EF6A65298171210048465F /* Localizable.strings */,
 			);
 			path = lblbc;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = C443006627AD39FC00B8D697;
 			productRefGroup = C443007027AD39FC00B8D697 /* Products */;
@@ -256,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C443007A27AD39FD00B8D697 /* Preview Assets.xcassets in Resources */,
+				C4EF6A63298171210048465F /* Localizable.strings in Resources */,
 				C443007727AD39FD00B8D697 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,11 +335,23 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		C4EF6A65298171210048465F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4EF6A64298171210048465F /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		C443007B27AD39FD00B8D697 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -396,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
