@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Записки</string>
+    <string name="save">Сохранить</string>
+    <string name="delete">Удалить</string>
+    <string name="input_user_name">Имя пользователя</string>
+    <string name="input_password">Пароль</string>
+    <string name="input_content">Записки</string>
+</resources>

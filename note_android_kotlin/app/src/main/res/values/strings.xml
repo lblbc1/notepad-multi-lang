@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">蓝不蓝云笔记-多语言</string>
+    <string name="save">保存</string>
+    <string name="delete">删除</string>
+    <string name="input_user_name">请输入用户名</string>
+    <string name="input_password">请输入密码</string>
+    <string name="input_content">请输入正文</string>
+</resources>

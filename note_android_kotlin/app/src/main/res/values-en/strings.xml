@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Note-MultiLang</string>
+    <string name="save">Save</string>
+    <string name="delete">Del</string>
+    <string name="input_user_name">User Name</string>
+    <string name="input_password">Password</string>
+    <string name="input_content">Content</string>
+</resources>
