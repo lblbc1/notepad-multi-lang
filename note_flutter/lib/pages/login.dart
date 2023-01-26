@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:ftoast/ftoast.dart';
 import 'package:lblbc_flutter/constants.dart';
+import 'package:lblbc_flutter/generated/l10n.dart';
 import 'package:lblbc_flutter/network/http_manager.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -43,25 +44,25 @@ class _LoginPageState extends State<LoginPage> {
       crossAxisAlignment: CrossAxisAlignment.center,
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
-        Container(
+        SizedBox(
           width: 200,
           child: TextField(
-            style: TextStyle(fontSize: 20),
+            style: const TextStyle(fontSize: 20),
             decoration: InputDecoration(
-              hintText: "请输入用户名",
+              hintText: S.of(context).input_user_name,
             ),
             onChanged: (val) {
               name = val;
             },
           ),
         ),
-        Container(
+        SizedBox(
           width: 200,
           child: TextField(
-            style: TextStyle(fontSize: 20),
+            style: const TextStyle(fontSize: 20),
             obscureText: true,
             decoration: InputDecoration(
-              hintText: "请输入密码",
+              hintText: S.of(context).input_password,
             ),
             onChanged: (val) {
               password = val;
@@ -69,24 +70,24 @@ class _LoginPageState extends State<LoginPage> {
           ),
         ),
         Container(
-          margin: EdgeInsets.fromLTRB(20.0, 20.0, 20.0, 0.0),
+          margin: const EdgeInsets.fromLTRB(20.0, 20.0, 20.0, 0.0),
           child: Row(
             children: [
-              Spacer(),
+              const Spacer(),
               ElevatedButton(
-                child: Text("登录"),
+                child: Text(S.of(context).login),
                 onPressed: () {
                   login();
                 },
               ),
-              Spacer(),
+              const Spacer(),
               ElevatedButton(
-                child: Text("注册"),
+                child: Text(S.of(context).register),
                 onPressed: () {
                   register();
                 },
               ),
-              Spacer(),
+              const Spacer(),
             ],
           ),
         ),

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'constants.dart';
+import 'generated/l10n.dart';
 import 'pages/login.dart';
 import 'pages/mine.dart';
 import 'pages/note_list.dart';
@@ -10,12 +11,14 @@ import 'pages/note_list.dart';
 ///  专注《零基础学编程系列》  http://lblbc.cn/blog
 ///  包含：Java | 安卓 | 前端 | Flutter | iOS | 小程序 | 鸿蒙
 ///  公众号：蓝不蓝编程
-class HomeWidget extends StatefulWidget {
+class MyHomePage extends StatefulWidget {
+  const MyHomePage({Key? key}) : super(key: key);
+
   @override
-  createState() => _HomeWidgetState();
+  createState() => _MyHomePageState();
 }
 
-class _HomeWidgetState extends State<HomeWidget> {
+class _MyHomePageState extends State<MyHomePage> {
   final bottomNavigationColor = Colors.blue;
   int _currentIndex = 0;
   List<Widget> list = [];
@@ -49,7 +52,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                 color: bottomNavigationColor,
               ),
               title: Text(
-                '首页',
+                S.of(context).home,
                 style: TextStyle(color: bottomNavigationColor),
               )),
           BottomNavigationBarItem(
@@ -58,7 +61,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                 color: bottomNavigationColor,
               ),
               title: Text(
-                '我的',
+                S.of(context).mine,
                 style: TextStyle(color: bottomNavigationColor),
               )),
         ],

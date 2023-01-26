@@ -1,0 +1,11 @@
+{
+  "app_name": "lblbc",
+  "home": "Home",
+  "mine": "Mine",
+  "save": "Save",
+  "input_content": "Please enter content",
+  "input_user_name": "Please enter user name",
+  "input_password": "Please enter password",
+  "login": "Login",
+  "register": "Register"
+}

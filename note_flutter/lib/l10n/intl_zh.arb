@@ -1,0 +1,11 @@
+{
+  "app_name": "蓝不蓝云笔记-多语言",
+  "home": "首页",
+  "mine": "我的",
+  "save": "保存",
+  "input_content": "请输入内容",
+  "input_user_name": "请输入用户名",
+  "input_password": "请输入密码",
+  "login": "登录",
+  "register": "注册"
+}

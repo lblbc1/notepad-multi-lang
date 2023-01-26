@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:lblbc_flutter/generated/l10n.dart';
 import 'package:lblbc_flutter/network/http_manager.dart';
 
 /// 厦门大学计算机专业 | 前华为工程师
@@ -43,13 +44,13 @@ class _AddNotePageState extends State<AddNotePage> {
             child: TextField(
           keyboardType: TextInputType.multiline,
           maxLines: 10,
-          decoration: const InputDecoration(
-            hintText: "请输入正文",
+          decoration: InputDecoration(
+            hintText: S.of(context).input_content,
           ),
           controller: _contentController,
         )),
         ElevatedButton(
-          child: Text("保存"),
+          child: Text(S.of(context).save),
           onPressed: () {
             addNote();
           },
