@@ -30,6 +30,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Please enter password"),
         "input_user_name":
             MessageLookupByLibrary.simpleMessage("Please enter user name"),
+        "lblbc": MessageLookupByLibrary.simpleMessage("lblbc"),
         "login": MessageLookupByLibrary.simpleMessage("Login"),
         "mine": MessageLookupByLibrary.simpleMessage("Mine"),
         "register": MessageLookupByLibrary.simpleMessage("Register"),

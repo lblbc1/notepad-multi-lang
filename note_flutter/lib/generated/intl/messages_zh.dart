@@ -27,6 +27,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "input_content": MessageLookupByLibrary.simpleMessage("请输入内容"),
         "input_password": MessageLookupByLibrary.simpleMessage("请输入密码"),
         "input_user_name": MessageLookupByLibrary.simpleMessage("请输入用户名"),
+        "lblbc": MessageLookupByLibrary.simpleMessage("蓝不蓝编程"),
         "login": MessageLookupByLibrary.simpleMessage("登录"),
         "mine": MessageLookupByLibrary.simpleMessage("我的"),
         "register": MessageLookupByLibrary.simpleMessage("注册"),

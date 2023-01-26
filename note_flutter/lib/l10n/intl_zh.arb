@@ -7,5 +7,6 @@
   "input_user_name": "请输入用户名",
   "input_password": "请输入密码",
   "login": "登录",
-  "register": "注册"
+  "register": "注册",
+  "lblbc": "蓝不蓝编程"
 }

@@ -139,6 +139,16 @@ class S {
       args: [],
     );
   }
+
+  /// `lblbc`
+  String get lblbc {
+    return Intl.message(
+      'lblbc',
+      name: 'lblbc',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

@@ -7,5 +7,6 @@
   "input_user_name": "Please enter user name",
   "input_password": "Please enter password",
   "login": "Login",
-  "register": "Register"
+  "register": "Register",
+  "lblbc": "lblbc"
 }

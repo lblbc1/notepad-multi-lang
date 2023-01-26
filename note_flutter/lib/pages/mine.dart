@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lblbc_flutter/generated/l10n.dart';
 
 /// 厦门大学计算机专业 | 前华为工程师
 ///  专注《零基础学编程系列》  http://lblbc.cn/blog
@@ -12,25 +13,25 @@ class MinePage extends StatelessWidget {
         title: Text('我的'),
       ),
       body: Center(
-        child: Container(margin: EdgeInsets.fromLTRB(20, 20, 20, 20), child: buildColumn()),
+        child: Container(margin: const EdgeInsets.fromLTRB(20, 20, 20, 20), child: buildColumn(context)),
       ),
     );
   }
 
-  Column buildColumn() {
+  Column buildColumn(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
-        CircleAvatar(backgroundColor: Colors.white, backgroundImage: AssetImage("assets/images/user_logo.png")),
+        const CircleAvatar(backgroundColor: Colors.white, backgroundImage: AssetImage("assets/images/user_logo.png")),
         Text(
-          "蓝不蓝编程",
-          style: TextStyle(fontSize: 15),
+          S.of(context).lblbc,
+          style: const TextStyle(fontSize: 15),
         ),
-        Expanded(child: Text("lblbc.cn")),
+        const Expanded(child: Text("lblbc.cn")),
         Text(
-          "©2022 蓝不蓝编程",
-          style: TextStyle(fontSize: 15),
+          "©2023 " + S.of(context).lblbc,
+          style: const TextStyle(fontSize: 15),
         ),
       ],
     );
