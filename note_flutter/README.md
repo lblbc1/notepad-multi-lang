@@ -7,15 +7,9 @@ Right：Java、Python、Go、PHP、NodeJS
 
 # Preview
 ![](https://img-blog.csdnimg.cn/8ef3f622a539463d8b2086a79976c57e.png)
-# Server Features
- 1. Register
- 2. Login
- 3. Add\Delete\Modify\Query note
 
 # Open Source
-[https://gitee.com/lblbc/cloud-note](https://gitee.com/lblbc/cloud-note)
-![](https://img-blog.csdnimg.cn/2f0b2bfe7c724d32bb3b3c938791c143.png)
-
+[https://gitee.com/lblbc/notepad-multi-lang.git](https://gitee.com/lblbc/notepad-multi-lang.git)
 
 # About Me
 Graduated from China Xiamen University  

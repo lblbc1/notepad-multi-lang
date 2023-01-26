@@ -10,7 +10,7 @@ Right：Java、Python、Go、PHP、NodeJS
 
 
 # Open Source
-[https://gitee.com/lblbc/notepad](https://gitee.com/lblbc/notepad)
+[https://gitee.com/lblbc/notepad-multi-lang.git](https://gitee.com/lblbc/notepad-multi-lang.git)
 
 
 # About Me

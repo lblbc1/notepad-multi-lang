@@ -15,8 +15,7 @@
 ![](https://img-blog.csdnimg.cn/b303c720e77e4172a13322d9d785900d.png)
 
 # 开源地址
-[https://gitee.com/lblbc/cloud-note](https://gitee.com/lblbc/cloud-note)
-![](https://img-blog.csdnimg.cn/b8697583eb8947b6865814f5f0eb3844.png)
+[https://gitee.com/lblbc/notepad-multi-lang.git](https://gitee.com/lblbc/notepad-multi-lang.git)
 
 # 关于
 厦门大学计算机专业|华为八年高级工程师     

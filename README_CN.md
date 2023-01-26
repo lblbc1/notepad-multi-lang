@@ -10,7 +10,7 @@
 ![](https://img-blog.csdnimg.cn/1195bd3c584d4d2ca5071dd231e92e07.png)
 
 # 开源地址
-[https://gitee.com/lblbc/notepad](https://gitee.com/lblbc/notepad)
+[https://gitee.com/lblbc/notepad-multi-lang.git](https://gitee.com/lblbc/notepad-multi-lang.git)
 
 # 关于
 厦门大学计算机专业|华为八年高级工程师     
