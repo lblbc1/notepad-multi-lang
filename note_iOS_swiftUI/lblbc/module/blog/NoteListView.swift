@@ -15,7 +15,7 @@ struct NoteListView: View {
     var body: some View {
         NavigationView{
             VStack{
-                Text("蓝不蓝云笔记")
+                Text(NSLocalizedString("app_name", comment: ""))
                 List {
                     ForEach(noteViewModel.dataList.indices , id: \.self){ i in
                         NoteRowView(viewModel: noteViewModel,

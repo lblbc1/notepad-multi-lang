@@ -12,7 +12,7 @@ struct AddNoteView: View {
     
     var body: some View {
         VStack{
-            TextField("请输入内容", text: $note.content)
+            TextField(NSLocalizedString("input_content", comment: ""), text: $note.content)
         }
         .padding()
         .background(.white)

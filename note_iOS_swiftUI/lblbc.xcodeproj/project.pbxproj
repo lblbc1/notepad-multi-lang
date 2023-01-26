@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		405C9F607DCB8BDD96759C5F /* Pods_lblbc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2508D8DD3482BA98536788F4 /* Pods_lblbc.framework */; };
+		C43CB64A2981F97D0040AB91 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C43CB64C2981F97D0040AB91 /* Localizable.strings */; };
 		C443007327AD39FC00B8D697 /* lblbcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C443007227AD39FC00B8D697 /* lblbcApp.swift */; };
 		C443007527AD39FC00B8D697 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C443007427AD39FC00B8D697 /* ContentView.swift */; };
 		C443007727AD39FD00B8D697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C443007627AD39FD00B8D697 /* Assets.xcassets */; };
@@ -22,7 +23,6 @@
 		C4E5564527AFAEE4004FA13E /* NoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E5564427AFAEE4004FA13E /* NoteListView.swift */; };
 		C4E5564727AFAEFA004FA13E /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E5564627AFAEFA004FA13E /* NoteViewModel.swift */; };
 		C4E5564B27AFAFEE004FA13E /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E5564A27AFAFEE004FA13E /* Note.swift */; };
-		C4EF6A63298171210048465F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4EF6A65298171210048465F /* Localizable.strings */; };
 		C4F01393297E875600609DD2 /* QueryNoteListResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F01392297E875600609DD2 /* QueryNoteListResp.swift */; };
 		C4F01395297E87AC00609DD2 /* CommonResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F01394297E87AC00609DD2 /* CommonResp.swift */; };
 		C4F01398297E8D2500609DD2 /* QueryNoteResp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F01397297E8D2500609DD2 /* QueryNoteResp.swift */; };
@@ -33,6 +33,8 @@
 		24A3143C590512E9AE22AD64 /* Pods-lblbc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lblbc.debug.xcconfig"; path = "Target Support Files/Pods-lblbc/Pods-lblbc.debug.xcconfig"; sourceTree = "<group>"; };
 		2508D8DD3482BA98536788F4 /* Pods_lblbc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lblbc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C39F00BB0E6EA1BDE611767 /* Pods-shop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shop.release.xcconfig"; path = "Target Support Files/Pods-shop/Pods-shop.release.xcconfig"; sourceTree = "<group>"; };
+		C43CB64B2981F97D0040AB91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C43CB64D2981F98F0040AB91 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		C443006F27AD39FC00B8D697 /* lblbc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lblbc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C443007227AD39FC00B8D697 /* lblbcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lblbcApp.swift; sourceTree = "<group>"; };
 		C443007427AD39FC00B8D697 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,7 +51,6 @@
 		C4E5564627AFAEFA004FA13E /* NoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
 		C4E5564A27AFAFEE004FA13E /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		C4ECBFAD2926775600C13C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		C4EF6A64298171210048465F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C4F01392297E875600609DD2 /* QueryNoteListResp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryNoteListResp.swift; sourceTree = "<group>"; };
 		C4F01394297E87AC00609DD2 /* CommonResp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonResp.swift; sourceTree = "<group>"; };
 		C4F01397297E8D2500609DD2 /* QueryNoteResp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryNoteResp.swift; sourceTree = "<group>"; };
@@ -119,7 +120,7 @@
 				C443007427AD39FC00B8D697 /* ContentView.swift */,
 				C443007627AD39FD00B8D697 /* Assets.xcassets */,
 				C443007827AD39FD00B8D697 /* Preview Content */,
-				C4EF6A65298171210048465F /* Localizable.strings */,
+				C43CB64C2981F97D0040AB91 /* Localizable.strings */,
 			);
 			path = lblbc;
 			sourceTree = "<group>";
@@ -260,7 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C443007A27AD39FD00B8D697 /* Preview Assets.xcassets in Resources */,
-				C4EF6A63298171210048465F /* Localizable.strings in Resources */,
+				C43CB64A2981F97D0040AB91 /* Localizable.strings in Resources */,
 				C443007727AD39FD00B8D697 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,10 +337,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C4EF6A65298171210048465F /* Localizable.strings */ = {
+		C43CB64C2981F97D0040AB91 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C4EF6A64298171210048465F /* en */,
+				C43CB64B2981F97D0040AB91 /* en */,
+				C43CB64D2981F98F0040AB91 /* zh-Hans */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

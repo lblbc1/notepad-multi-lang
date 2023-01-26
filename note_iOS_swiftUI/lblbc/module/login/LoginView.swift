@@ -22,15 +22,15 @@ struct LoginView : View {
             Text(error).foregroundColor(.red)
             HStack {
                 Image(systemName: "person")
-                TextField("请输入用户名", text: $name)
+                TextField(NSLocalizedString("input_user_name", comment: ""), text: $name)
             }
             Divider()
             HStack {
                 Image(systemName: "lock")
                 if showPwd {
-                    TextField("请输入密码", text: $password)
+                    TextField(NSLocalizedString("input_password", comment: ""), text: $password)
                 } else {
-                    SecureField("请输入密码", text: $password)
+                    SecureField(NSLocalizedString("input_password", comment: ""), text: $password)
                 }
                 Button(action: {
                     self.showPwd.toggle()
@@ -52,7 +52,7 @@ struct LoginView : View {
                         }
                     }
                 }) {
-                    Text("登录").foregroundColor(.white)
+                    Text(NSLocalizedString("login", comment: "")).foregroundColor(.white)
                 }
                 .frame(width: 100, height: 45, alignment: .center)
                 .background(isCanLogin ? Color.main_color: Color.gray)
@@ -70,7 +70,7 @@ struct LoginView : View {
                         }
                     }
                 }) {
-                    Text("注册").foregroundColor(.white)
+                    Text(NSLocalizedString("register", comment: "")).foregroundColor(.white)
                 }
                 .frame(width: 100, height: 45, alignment: .center)
                 .background(isCanLogin ? Color.main_color: Color.gray)

@@ -1,7 +1,6 @@
-/* 
-  Localizable.strings
-  lblbc
-
-  Created by jerry on 2023/1/25.
-  
-*/
+"app_name"="Note";
+"input_content" = "enter content";
+"input_user_name" = "enter user name";
+"input_password" = "enter password";
+"login" = "Login";
+"register" = "Enter";
