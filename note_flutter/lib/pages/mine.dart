@@ -10,7 +10,7 @@ class MinePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('我的'),
+        title: Text(S.of(context).mine),
       ),
       body: Center(
         child: Container(margin: const EdgeInsets.fromLTRB(20, 20, 20, 20), child: buildColumn(context)),
